@@ -1,0 +1,11 @@
+StudentID,Name,City,Math,Science,English,Attendance,Average,Result
+1,Ali Khan,Karachi,85.0,90,78.0,92,84.33333333333333,Pass
+2,Sara Ahmed,Lahore,45.0,60,55.0,68,53.333333333333336,Fail
+3,Bilal Raza,Islamabad,92.0,88,95.0,97,91.66666666666667,Pass
+4,Hina Malik,Karachi,38.0,42,74.33333333333333,72,51.444444444444436,Fail
+5,Omar Sheikh,Lahore,70.0,65,72.0,85,69.0,Pass
+6,Zara Iqbal,Islamabad,95.0,98,92.0,99,95.0,Pass
+7,Fahad Ali,Karachi,71.77777777777777,55,60.0,45,62.25925925925926,Pass
+8,Ayesha Noor,Multan,88.0,82,90.0,94,86.66666666666667,Pass
+9,Usman Tariq,Lahore,55.0,48,52.0,60,51.666666666666664,Fail
+10,Mahnoor Aslam,Karachi,78.0,80,75.0,88,77.66666666666667,Pass
