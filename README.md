@@ -1,4 +1,4 @@
-Pandas Projects
+# Pandas Projects
 
 A collection of hands-on Pandas projects built while practicing data cleaning, feature engineering, and business analysis on real-world style datasets.
 
