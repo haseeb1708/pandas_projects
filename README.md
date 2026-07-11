@@ -4,28 +4,7 @@ A collection of hands-on Pandas projects built while practicing data cleaning, f
  
 ---
  
-## 1. Company Sales Analyzer
- 
-**Folder:** `company_sales_analyzer/`
- 
-A sales dataset analysis project focused on cleaning raw sales records and extracting business insights.
- 
-**What was done:**
-- Loaded the dataset and inspected its shape, structure, and missing values
-- Filled missing `UnitsSold` values using the average units sold per product (`groupby` + `transform`)
-- Filled missing `Discount` values with 0 (treated as "no discount applied")
-- Created a `Revenue` column using the formula: `UnitsSold × UnitPrice × (1 - Discount/100)`
-- Converted the `Date` column to proper datetime format
-- Calculated total revenue by **Region** and by **SalesRep** (ranked to find the top performer)
-- Calculated average unit price and total units sold per **Category** using `agg()`
-- Filtered orders with discount above 10% in the Electronics category
-- Built a **pivot table** showing revenue by Region (rows) and Category (columns)
-- Exported the final cleaned and processed dataset to a new CSV
-**Key skills used:** `groupby`, `transform`, `agg`, `pivot_table`, boolean filtering, datetime conversion
- 
----
- 
-## 2. E-commerce Sales Data
+## 1. E-commerce Sales Data
  
 **Folder:** `E_commerce_sales_data/`
  
@@ -52,6 +31,27 @@ A larger, messier real-world style e-commerce orders dataset (6,000+ rows) focus
 - Found the top 10 customers by total spending
 - Exported the final cleaned dataset to `cleaned_ecommerce_data.csv`
 **Key skills used:** data quality auditing, string cleaning (`str.strip`, `str.title`, `replace`), duplicate handling, mixed-format datetime parsing, `groupby`, `idxmax`, `pivot_table`, `value_counts`
+ 
+---
+ 
+## 2. Company Sales Analyzer
+ 
+**Folder:** `company_sales_analyzer/`
+ 
+A sales dataset analysis project focused on cleaning raw sales records and extracting business insights.
+ 
+**What was done:**
+- Loaded the dataset and inspected its shape, structure, and missing values
+- Filled missing `UnitsSold` values using the average units sold per product (`groupby` + `transform`)
+- Filled missing `Discount` values with 0 (treated as "no discount applied")
+- Created a `Revenue` column using the formula: `UnitsSold × UnitPrice × (1 - Discount/100)`
+- Converted the `Date` column to proper datetime format
+- Calculated total revenue by **Region** and by **SalesRep** (ranked to find the top performer)
+- Calculated average unit price and total units sold per **Category** using `agg()`
+- Filtered orders with discount above 10% in the Electronics category
+- Built a **pivot table** showing revenue by Region (rows) and Category (columns)
+- Exported the final cleaned and processed dataset to a new CSV
+**Key skills used:** `groupby`, `transform`, `agg`, `pivot_table`, boolean filtering, datetime conversion
  
 ---
  
